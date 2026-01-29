@@ -5,7 +5,7 @@ import { Box } from '@mui/material'
 const App = () => {
   console.log("Render");
   return (
-    <>
+    <Box sx={{ color: "red" }}>
 
       Perfume
 
@@ -24,7 +24,7 @@ const App = () => {
         Coded by <a href="#">Deepu</a>.
       </div>
 
-    </>
+    </Box>
   )
 }
 
