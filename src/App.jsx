@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import { Box } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 
 const App = () => {
   console.log("Render");
   return (
-    <Box sx={{ color: "red" }}>
+    <Grid container border='2px solid red' height="100vh" >
 
       Perfume
 
@@ -24,7 +24,7 @@ const App = () => {
         Coded by <a href="#">Deepu</a>.
       </div>
 
-    </Box>
+    </Grid>
   )
 }
 
