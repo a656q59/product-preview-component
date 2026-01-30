@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { Box, Button, Grid, Typography } from '@mui/material'
 import desktop_image from "./assets/images/image-product-desktop.jpg"
@@ -100,6 +99,7 @@ const App = () => {
       </Box>
 
     </Box>
+
   )
 }
 
