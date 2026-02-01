@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Box sx={{ display: "flex", flexDirection: "column", justifyContent: { xs: "space-evenly", lg: "center" }, alignItems: "center", backgroundColor: "hsl(30, 38%, 92%)", height: "100vh" }}  >
 
-      <Grid container display="flex" border="2px solid red" flexDirection={{ xs: "column", lg: "row" }} justifyContent={{ xs: "center", lg: "start" }} alignItems="center" width={{ lg: "33%", xl: "43%" }} height="92%">
+      <Grid container display="flex" flexDirection={{ xs: "column", lg: "row" }} justifyContent={{ xs: "center", lg: "start" }} alignItems="center" width={{ lg: "33%", xl: "43%" }} height="92%">
 
         <Grid sx={{ borderTopLeftRadius: "12px", borderBottomLeftRadius: "12px", overflow: "hidden", display: "flex", height: { xs: "25%", lg: "50%" } }} size={{ xs: 12, lg: 6 }} >
           <Box sx={{
